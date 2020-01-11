@@ -9,9 +9,8 @@
 # production:
 #   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
 #   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
-AWS_BUCKET: "thisflixterbucket"
-AWS_ACCESS_KEY: "AKIARNIXYNRCEQQNARH2"
-AWS_SECRET_KEY: "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"
-AWS_REGION:     "us-east-1"
-SECRET_KEY: 'sk_test_0rLjcRY94afblJUBPAWH0Uqg00yconW9s5'
-PUBLISHABLE_KEY: 'pk_test_EKHSIiXc5Zu76OPRS5chEQc200f2yTxGzU'
+AWS_BUCKET: "flixxter"
+AWS_ACCESS_KEY: "AKIARNIXYNRCBGBB4MXF"
+AWS_SECRET_KEY: "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"
+AWS_REGION:     "us-east-2"
+

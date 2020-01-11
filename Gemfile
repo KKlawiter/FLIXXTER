@@ -72,4 +72,9 @@ end
 
 gem 'simple_form'
 gem 'devise'
-gem 'carrierwave', '~> 1.0'
+gem "figaro"
+gem "fog-aws"
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'carrierwave-aws'
+gem "rmagick", "~> 2.13.1"
