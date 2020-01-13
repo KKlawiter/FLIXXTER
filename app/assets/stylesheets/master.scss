@@ -13,6 +13,11 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   color: white;
+  float: right;
+}
+
+.right {
+  float: right;
 }
 
 .hero {
@@ -55,6 +60,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
+  color: #8E9191;
 }
 
 body {
@@ -109,5 +115,13 @@ body {
 .lesson a b {
   font-weight: 100;
   font-size: 25px;
+}
+
+.footer {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background: image_url('bg.png');
+  color: #8E9191;
 }
 
