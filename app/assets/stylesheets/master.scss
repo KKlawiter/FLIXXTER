@@ -13,11 +13,6 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   color: white;
-  float: right;
-}
-
-.right {
-  float: right;
 }
 
 .hero {
@@ -55,6 +50,27 @@ h1, h2, h3, h4, h5, h6, .navbar {
 .btn {
   border-radius: 0;
 }
+
+.btn-success {
+  color: #fff;
+  background-color: blue;
+  border-color: blue;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: white;
+} 
 
 .feature {
   width: 100%;
@@ -97,6 +113,7 @@ body {
 
 .lesson {
   background-color: black;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
 }
 
 .section {
@@ -110,11 +127,13 @@ body {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
   font-size: 15px;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
 }
 
 .lesson a b {
   font-weight: 100;
   font-size: 25px;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
 }
 
 .footer {
