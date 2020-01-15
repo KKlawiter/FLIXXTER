@@ -19,6 +19,9 @@
             <%= link_to 'All Courses', courses_path, class: 'navbar-brand' %>
           </li>
           <% if user_signed_in? %>
+            <li class="nav-item">
+              <%= link_to 'My Dashboard', dashboard_path, class: 'nav-link' %>
+            </li>
             <li class="navbar-brand">
               <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class: 'navbar-brand' %>
             </li>
