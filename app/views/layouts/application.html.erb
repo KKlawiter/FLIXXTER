@@ -39,35 +39,6 @@
   </div>
 </nav>
 <div id="flex-content-container">
-
-      <!-- <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
-        <%= link_to 'FLIXXTER', root_url, class: 'navbar-brand' %>
-        <ul id="navbarTogglerDemo02">
-          <li class="navbar-brand mr-auto mt-2 mt-md-0">
-            <%= link_to 'All Courses', courses_path, class: 'navbar-brand' %>
-          </li>
-          <% if user_signed_in? %>
-            <li class="nav-item">
-              <%= link_to 'My Dashboard', dashboard_path, class: 'nav-link' %>
-            </li>
-            <li>
-              <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class: 'navbar-brand' %>
-            </li>
-          <% else %>
-            <li>
-              <%= link_to 'Sign In', new_user_session_path, class: 'navbar-brand' %>
-            </li>
-            <li>
-              <%= link_to 'Sign Up', new_user_registration_path, class: 'navbar-brand' %>
-            </li>
-          <% end %>
-        </ul>
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-          
-      </nav> -->
       <% if notice.present? %>
         <p class="alert alert-info"><%= notice %></p>
       <% end %>
@@ -82,7 +53,8 @@
           <div class="col-12 col-sm-3">
             <% if user_signed_in? %>
               <b>Teachers</b>
-                <%= link_to 'Teach A New Course', new_instructor_course_path, class: 'navbar-brand' %>
+                <br />
+                <%= link_to 'Teach A New Course', new_instructor_course_path  %>
                 <br />
                 <%= link_to 'My Dashboard', dashboard_path %>
             <% else %>
@@ -93,11 +65,11 @@
           <div class="col-12 col-sm-3">
             <b>About</b>
             <br />
-            <%= link_to 'Team', '#' %>
+            <%= link_to 'Team', team_path %>
             <br />
-            <%= link_to 'Careers', '#' %>
+            <%= link_to 'Careers', careers_path %>
             <br />
-            <%= link_to 'Privacy Policy', '#' %>
+            <%= link_to 'Privacy Policy', privacy_path %>
           </div>
           <div class="col-12 col-sm-3">
             <b>Contact</b>
